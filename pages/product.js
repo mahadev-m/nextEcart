@@ -16,11 +16,6 @@ export default function Home() {
       <div>
         <div className="w-full lg:flex lg:flex-wrap lg:justify-around z-0 ">
           <div className="mt-16 mb-8 w-full ">
-            <img
-              className="w-full max-w-screen-2xl "
-              src="./svg/banner.jpg"
-              alt="banner"
-            />
             <h1 className="text-center text-4xl text-gray-600 p-2 border-2 mt-20 uppercase">
               Products
             </h1>
