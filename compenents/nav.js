@@ -28,7 +28,7 @@ const Nav = () => {
               onClick={() => (isOpen ? navtoggle() : null)}
             >
               <img
-                className="lg:w-7 lg:z-10 md:w-7 w-5 mx-2 animate-pulse"
+                className="lg:w-8 lg:z-10 md:w-8 w-5 mx-2 animate-pulse"
                 src="./svg/shopping-cart-solid.svg"
                 alt="style"
               />
@@ -63,7 +63,7 @@ const Nav = () => {
             <Link href="/cart">
               <a className="lg:inline-flex lg:w-auto font-semibold text-gray-600 text-lg px-4 py-2 rounded hover:shadow-xl hidden  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <img
-                  className="lg:w-7 lg:z-10 w-7 mx-2 animate-pulse"
+                  className="lg:w-8 lg:z-10 w-8 mx-2 animate-pulse"
                   src="./svg/shopping-cart-solid.svg"
                   alt="style"
                 />
