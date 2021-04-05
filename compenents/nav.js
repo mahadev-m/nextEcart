@@ -17,7 +17,7 @@ const Nav = () => {
       <nav className="flex items-center flex-wrap p-2 z-10 bg-white fixed top-0 w-full">
         {/* logo */}
         <Link href="/">
-          <a className="inline-flex p-2 m- transition-all"></a>
+          <a className="inline-flex p-2 m- transition-all">Welcome</a>
         </Link>
         {/* logo ends */}
         {/* cart Icon */}
@@ -59,7 +59,7 @@ const Nav = () => {
               : "w-full lg:inline-flex lg:flex-grow lg:w-auto hidden"
           }
         >
-          <div className=" block lg:ml-auto lg-flex md-flex ">
+          <div className=" block lg:ml-auto lg:flex md:flex ">
             <Link href="/cart">
               <a className="lg:inline-flex lg:w-auto font-semibold text-gray-600 text-lg px-4 py-2 rounded hover:shadow-xl hidden  transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <img
