@@ -42,7 +42,7 @@ const Nav = () => {
               onClick={() => (isOpen ? navtoggle() : null)}
             >
               <img
-                className="lg:w-7 lg:z-10 md:w-7 w-5 mx-2 animate-pulse"
+                className="lg:w-8 lg:z-10 md:w-7 w-5 mx-2 animate-pulse"
                 src="./svg/shopping-cart-solid.svg"
                 alt="style"
               />
