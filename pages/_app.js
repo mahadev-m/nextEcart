@@ -2,6 +2,7 @@ import ShopContextProvider from "../context/shopContext";
 import Nav from "../compenents/nav";
 import "tailwindcss/tailwind.css";
 import { Provider } from "next-auth/client";
+import "../styles/global.css";
 function MyApp({ Component, pageProps }) {
   return (
     <Provider session={pageProps.session}>
